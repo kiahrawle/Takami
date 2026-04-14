@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAKAMI Guidebook — Brand & UX Analysis</title>
+  <meta name="description" content="A complete UX and brand analysis of TAKAMI Skincare — behavioral science, Japanese cultural philosophy, and future-facing AI design.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Page Transition -->
+  <div class="page-transition"></div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- ════════ NAVIGATION ════════ -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">
+      <img src="images/logo.png" alt="TAKAMI" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+      <span class="nav-logo-text" style="display:none">TAKAMI</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Overview</a></li>
+      <li><a href="behavioral-science.html">Behavioral Science</a></li>
+      <li><a href="cultural-analysis.html">Cultural DNA</a></li>
+      <li><a href="future-ux.html">Future UX</a></li>
+      <li><a href="about.html" class="nav-pill-cta">About</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ════════ HERO ════════ -->
+  <section class="hero">
+    <img
+      class="hero-bg"
+      src="images/hero-bottle.jpg"
+      alt=""
+      style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(1.12);will-change:transform;"
+    >
+    <!-- subtle vignette only — image shows clearly -->
+    <div style="position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,0.15) 0%,rgba(0,0,0,0.05) 35%,rgba(0,0,0,0.42) 70%,rgba(6,14,107,0.82) 100%);"></div>
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(20,32,168,0.2) 0%,transparent 60%);"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">UX & Brand Analysis Guidebook</p>
+      <h1 class="hero-title">TAKAMI<br><em>Decoded</em></h1>
+      <p class="hero-subtitle">The behavioral science and cultural architecture<br>behind Japan's most evangelized skincare ritual</p>
+      <div class="hero-actions">
+        <a href="behavioral-science.html" class="btn-primary">Begin Reading →</a>
+        <a href="#overview" class="btn-ghost">Overview</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ════════ GUIDE INTRO ════════ -->
+  <section id="overview" class="section" style="background: var(--cream);">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center;">
+
+      <div>
+        <p class="section-eyebrow reveal">The Guidebook</p>
+        <h2 class="section-title reveal" style="max-width: 480px;">Why Takami is a<br><em>masterclass</em><br>in UX thinking</h2>
+        <p class="section-body reveal delay-1">
+          Takami's Soft Peel lotion achieved cult status not through product excellence alone — but through behavioral architecture. A system of trust, ritual, and cultural resonance that digital designers can study, adapt, and apply.
+        </p>
+        <p class="section-body reveal delay-2" style="margin-top: 16px;">
+          This guidebook dissects how behavioral science, Japanese aesthetics, and futuristic AI personalization combine into the world's most effective "less-is-more" beauty system.
+        </p>
+
+        <div class="stats-grid reveal delay-3">
+          <div class="stat-card">
+            <div class="stat-number"><span data-count="27">0</span>%</div>
+            <div class="stat-label">Conversion lift post L'Oréal integration</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number"><span data-count="19">0</span>%</div>
+            <div class="stat-label">Churn reduction within 18 months</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">6.5+</div>
+            <div class="stat-label">@cosme rating out of 7 stars</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number"><span data-count="6">0</span></div>
+            <div class="stat-label">Japanese cultural principles leveraged</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal delay-2">
+        <div style="border-radius: var(--radius-xl); overflow: hidden; aspect-ratio: 3/4; box-shadow: var(--shadow-lg);">
+          <img src="images/bottle-simple.jpg" alt="Takami Soft Peel"
+               style="width: 100%; height: 100%; object-fit: cover;"
+               onerror="this.parentElement.style.background='linear-gradient(140deg,#0B1480,#2B47E8)'; this.style.display='none';">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════ CHAPTER CARDS ════════ -->
+  <section class="section" style="background: var(--white);">
+    <div class="reveal">
+      <p class="section-eyebrow">Three Chapters</p>
+      <h2 class="section-title" style="max-width: 520px;">The pillars behind<br>Takami's <em>cult status</em></h2>
+    </div>
+
+    <div class="chapters-grid">
+
+      <a href="behavioral-science.html" class="chapter-card reveal delay-1">
+        <div class="card-bg" style="background-image: url('images/water-drop.jpg');
+             background-color: #1420A8;"></div>
+        <div class="card-overlay"></div>
+        <div class="card-content">
+          <div class="card-num">Chapter 01</div>
+          <div class="card-title">Behavioral Science</div>
+          <div class="card-desc">4 core principles that neutralize resistance, build daily ritual, and create lifelong loyalty — mapped directly to Takami's product experience.</div>
+          <div class="card-cta">Explore <span class="card-arrow">→</span></div>
+        </div>
+      </a>
+
+      <a href="cultural-analysis.html" class="chapter-card reveal delay-2">
+        <div class="card-bg" style="background-image: url('images/pearl-woman.jpg');
+             background-color: #2B47E8;"></div>
+        <div class="card-overlay"></div>
+        <div class="card-content">
+          <div class="card-num">Chapter 02</div>
+          <div class="card-title">Cultural DNA</div>
+          <div class="card-desc">Ma, Wabi-Sabi, Mottainai — ancient Japanese aesthetics powering a modern less-is-more philosophy that Western brands simply cannot replicate.</div>
+          <div class="card-cta">Explore <span class="card-arrow">→</span></div>
+        </div>
+      </a>
+
+      <a href="future-ux.html" class="chapter-card reveal delay-3">
+        <div class="card-bg" style="background-image: url('images/feather.jpg');
+             background-color: #060E6B;"></div>
+        <div class="card-overlay"></div>
+        <div class="card-content">
+          <div class="card-num">Chapter 03</div>
+          <div class="card-title">Future UX</div>
+          <div class="card-desc">The Skin Truth AI tool, a 5-layer automated personalization engine, and how L'Oréal transformed its digital UX from e-commerce into clinic consultation.</div>
+          <div class="card-cta">Explore <span class="card-arrow">→</span></div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ════════ PRODUCTS ════════ -->
+  <section class="section" style="background: var(--off-white);">
+    <div class="reveal" style="text-align:center; max-width:560px; margin:0 auto 56px;">
+      <p class="section-eyebrow">The Product Line</p>
+      <h2 class="section-title">Clinical precision.<br><em>Minimal form.</em></h2>
+      <p class="section-body" style="margin:0 auto;">Each product earns its place with a specific, clinically-backed function. Kanso (簡素) — deep mastery made effortless.</p>
+    </div>
+
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:16px; max-width:1100px; margin:0 auto;" class="reveal delay-1">
+
+      <div style="background:var(--white); border-radius:var(--radius-lg); padding:36px 28px; border:1px solid rgba(20,32,168,0.07); box-shadow:var(--shadow-sm); transition:var(--t), transform 0.3s cubic-bezier(0.34,1.56,0.64,1);" onmouseenter="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 24px 64px rgba(11,20,128,0.14)'" onmouseleave="this.style.transform=''; this.style.boxShadow=''">
+        <div style="width:40px; height:40px; background:var(--blue-deep); border-radius:50%; margin-bottom:20px; display:flex; align-items:center; justify-content:center;">
+          <div style="width:12px; height:12px; background:var(--peach); border-radius:50%;"></div>
+        </div>
+        <p style="font-size:10px; font-weight:800; letter-spacing:0.22em; text-transform:uppercase; color:var(--blue-cobalt); margin-bottom:8px;">Hero Product</p>
+        <p style="font-family:var(--font-serif); font-size:20px; color:var(--text-primary); margin-bottom:10px;">Skin Peel Essence</p>
+        <p style="font-size:13px; color:var(--text-muted); line-height:1.7;">Daily AHA chemical exfoliant. Accelerates 28-day skin turnover cycle. The cult product that started everything.</p>
+        <div style="margin-top:16px; padding-top:16px; border-top:1px solid rgba(20,32,168,0.07); font-size:11px; font-weight:700; letter-spacing:0.1em; color:var(--peach-dark);">DAILY USE · STEP 1</div>
+      </div>
+
+      <div style="background:var(--white); border-radius:var(--radius-lg); padding:36px 28px; border:1px solid rgba(20,32,168,0.07); box-shadow:var(--shadow-sm); transition:var(--t), transform 0.3s cubic-bezier(0.34,1.56,0.64,1);" onmouseenter="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 24px 64px rgba(11,20,128,0.14)'" onmouseleave="this.style.transform=''; this.style.boxShadow=''">
+        <div style="width:40px; height:40px; background:var(--blue-cobalt); border-radius:50%; margin-bottom:20px; display:flex; align-items:center; justify-content:center;">
+          <div style="width:12px; height:12px; background:var(--blue-pale); border-radius:50%;"></div>
+        </div>
+        <p style="font-size:10px; font-weight:800; letter-spacing:0.22em; text-transform:uppercase; color:var(--blue-cobalt); margin-bottom:8px;">Hydration Core</p>
+        <p style="font-family:var(--font-serif); font-size:20px; color:var(--text-primary); margin-bottom:10px;">Barrier Essence Lotion</p>
+        <p style="font-size:13px; color:var(--text-muted); line-height:1.7;">Dual formula (I &amp; II) that repairs and fortifies the skin barrier post-peel. The essential complement to the hero product.</p>
+        <div style="margin-top:16px; padding-top:16px; border-top:1px solid rgba(20,32,168,0.07); font-size:11px; font-weight:700; letter-spacing:0.1em; color:var(--blue-cobalt);">BARRIER REPAIR · STEP 2</div>
+      </div>
+
+      <div style="background:var(--white); border-radius:var(--radius-lg); padding:36px 28px; border:1px solid rgba(20,32,168,0.07); box-shadow:var(--shadow-sm); transition:var(--t), transform 0.3s cubic-bezier(0.34,1.56,0.64,1);" onmouseenter="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 24px 64px rgba(11,20,128,0.14)'" onmouseleave="this.style.transform=''; this.style.boxShadow=''">
+        <div style="width:40px; height:40px; background:var(--blue-mid); border-radius:50%; margin-bottom:20px; display:flex; align-items:center; justify-content:center;">
+          <div style="width:12px; height:12px; background:white; border-radius:50%;"></div>
+        </div>
+        <p style="font-size:10px; font-weight:800; letter-spacing:0.22em; text-transform:uppercase; color:var(--blue-cobalt); margin-bottom:8px;">Brightening</p>
+        <p style="font-family:var(--font-serif); font-size:20px; color:var(--text-primary); margin-bottom:10px;">Vitamin 5C-II Essence</p>
+        <p style="font-size:13px; color:var(--text-muted); line-height:1.7;">High-concentration Vitamin C derivative. Targets clarity and luminosity on the freshly-renewed skin layer exposed by the peel.</p>
+        <div style="margin-top:16px; padding-top:16px; border-top:1px solid rgba(20,32,168,0.07); font-size:11px; font-weight:700; letter-spacing:0.1em; color:var(--blue-mid);">TARGETED TREATMENT</div>
+      </div>
+
+      <div style="background:var(--white); border-radius:var(--radius-lg); padding:36px 28px; border:1px solid rgba(20,32,168,0.07); box-shadow:var(--shadow-sm); transition:var(--t), transform 0.3s cubic-bezier(0.34,1.56,0.64,1);" onmouseenter="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 24px 64px rgba(11,20,128,0.14)'" onmouseleave="this.style.transform=''; this.style.boxShadow=''">
+        <div style="width:40px; height:40px; background:var(--cream); border:1px solid rgba(20,32,168,0.12); border-radius:50%; margin-bottom:20px; display:flex; align-items:center; justify-content:center;">
+          <div style="width:12px; height:12px; background:var(--peach); border-radius:50%;"></div>
+        </div>
+        <p style="font-size:10px; font-weight:800; letter-spacing:0.22em; text-transform:uppercase; color:var(--blue-cobalt); margin-bottom:8px;">Cleanse Base</p>
+        <p style="font-family:var(--font-serif); font-size:20px; color:var(--text-primary); margin-bottom:10px;">Moisture Rich Face Foam</p>
+        <p style="font-size:13px; color:var(--text-muted); line-height:1.7;">Gentle non-stripping cleanser that prepares skin for the peel without disrupting its natural pH or moisture balance.</p>
+        <div style="margin-top:16px; padding-top:16px; border-top:1px solid rgba(20,32,168,0.07); font-size:11px; font-weight:700; letter-spacing:0.1em; color:var(--text-muted);">CLEANSE · PRE-PEEL</div>
+      </div>
+
+      <div style="background:var(--white); border-radius:var(--radius-lg); padding:36px 28px; border:1px solid rgba(20,32,168,0.07); box-shadow:var(--shadow-sm); transition:var(--t), transform 0.3s cubic-bezier(0.34,1.56,0.64,1);" onmouseenter="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 24px 64px rgba(11,20,128,0.14)'" onmouseleave="this.style.transform=''; this.style.boxShadow=''">
+        <div style="width:40px; height:40px; background:var(--peach-light); border:1px solid rgba(200,122,90,0.2); border-radius:50%; margin-bottom:20px; display:flex; align-items:center; justify-content:center;">
+          <div style="width:12px; height:12px; background:var(--peach-dark); border-radius:50%;"></div>
+        </div>
+        <p style="font-size:10px; font-weight:800; letter-spacing:0.22em; text-transform:uppercase; color:var(--blue-cobalt); margin-bottom:8px;">Precision Extension</p>
+        <p style="font-family:var(--font-serif); font-size:20px; color:var(--text-primary); margin-bottom:10px;">Lip Essence</p>
+        <p style="font-size:13px; color:var(--text-muted); line-height:1.7;">Extends the skin turnover philosophy to the lip area. Gentle exfoliation and intensive hydration in one step. Kanso made personal.</p>
+        <div style="margin-top:16px; padding-top:16px; border-top:1px solid rgba(20,32,168,0.07); font-size:11px; font-weight:700; letter-spacing:0.1em; color:var(--peach-dark);">LIP CARE · STEP 3</div>
+      </div>
+
+      <div style="background:var(--blue-deep); border-radius:var(--radius-lg); padding:36px 28px; border:1px solid rgba(255,255,255,0.06); box-shadow:var(--shadow-sm); transition:var(--t), transform 0.3s cubic-bezier(0.34,1.56,0.64,1);" onmouseenter="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 24px 64px rgba(6,14,107,0.35)'" onmouseleave="this.style.transform=''; this.style.boxShadow=''">
+        <div style="width:40px; height:40px; background:rgba(232,184,160,0.2); border:1px solid rgba(232,184,160,0.4); border-radius:50%; margin-bottom:20px; display:flex; align-items:center; justify-content:center;">
+          <div style="width:12px; height:12px; background:var(--peach); border-radius:50%;"></div>
+        </div>
+        <p style="font-size:10px; font-weight:800; letter-spacing:0.22em; text-transform:uppercase; color:var(--peach); margin-bottom:8px;">Ritual Amplifier</p>
+        <p style="font-family:var(--font-serif); font-size:20px; color:white; margin-bottom:10px;">Sheet Masks</p>
+        <p style="font-size:13px; color:rgba(255,255,255,0.55); line-height:1.7;">Intensive treatment moments for when the skin needs more. Delivers active ingredients deep into freshly-exfoliated skin for maximum absorption.</p>
+        <div style="margin-top:16px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.08); font-size:11px; font-weight:700; letter-spacing:0.1em; color:var(--peach);">INTENSIVE CARE · AS NEEDED</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════ QUOTE ════════ -->
+  <section class="quote-section">
+    <p class="quote-text reveal">
+      "In a market of 10-step routines, Takami's 2-step philosophy feels<br>
+      revolutionary yet ancestral — like a <em>tea master serving one perfect bowl</em>,<br>
+      not a tray of options."
+    </p>
+    <p class="quote-attr reveal delay-1">— TAKAMI Brand Analysis · Behavioral Architecture Study</p>
+  </section>
+
+  <!-- ════════ FOOTER ════════ -->
+  <footer>
+    <div class="footer-brand">TAKAMI GUIDEBOOK</div>
+    <div class="footer-credit">UX & Brand Analysis · Behavioral Science × Cultural Philosophy × Future Design</div>
+    <div class="footer-year">2026</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

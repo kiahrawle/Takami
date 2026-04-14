@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Behavioral Science — TAKAMI Guidebook</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="page-transition"></div>
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">
+      <img src="images/logo.png" alt="TAKAMI" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+      <span class="nav-logo-text" style="display:none">TAKAMI</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Overview</a></li>
+      <li><a href="behavioral-science.html" class="active">Behavioral Science</a></li>
+      <li><a href="cultural-analysis.html">Cultural DNA</a></li>
+      <li><a href="future-ux.html">Future UX</a></li>
+      <li><a href="about.html" class="nav-pill-cta">About</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <p class="page-hero-eyebrow reveal">Chapter 01</p>
+    <h1 class="page-hero-title reveal delay-1">The Behavioral<br><em>Architecture</em></h1>
+    <p class="page-hero-body reveal delay-2">How Takami leverages four core behavioral science principles to turn cautious, risk-averse Japanese consumers into daily users and lifelong advocates.</p>
+  </div>
+
+  <!-- ════ THE 4 PRINCIPLES ════ -->
+  <section class="section" style="background: var(--off-white);">
+    <div class="reveal">
+      <p class="section-eyebrow">The Framework</p>
+      <h2 class="section-title" style="max-width: 500px;">Four principles.<br><em>One cult product.</em></h2>
+      <p class="section-body" style="margin-top: 0; margin-bottom: 0;">Each principle works in sequence: first removing the barrier to trial, then locking in consistency, then building social authority, and finally anchoring the scientific narrative that makes daily use feel medically necessary.</p>
+    </div>
+
+    <div class="principles-grid">
+      <div class="principle-card reveal delay-1">
+        <div class="p-num">Principle 01</div>
+        <div class="p-title">Loss Aversion<br>→ "Safe Risk" Framing</div>
+        <div class="p-text">People fear losses ~2× more than they value equivalent gains. Irritation, wasted money, skin damage — these fears dominate. Soft Peel positions as the "no-loss" option: gentle enough for daily use on sensitive skin, no downtime, no redness.</div>
+        <div class="p-impact">Lowers activation energy for first trial</div>
+      </div>
+
+      <div class="principle-card reveal delay-2">
+        <div class="p-num">Principle 02</div>
+        <div class="p-title">Commitment &amp; Consistency<br>→ Ritual Lock-In</div>
+        <div class="p-text">Once people commit to a small action (daily peel), they stay consistent to avoid cognitive dissonance. Simple "one pump, morning routine" creates micro-commitment. Over time, users identify as "Soft Peel users" — sharing on @cosme and Instagram.</div>
+        <div class="p-impact">Turns one-time trial into lifelong staple</div>
+      </div>
+
+      <div class="principle-card reveal delay-3">
+        <div class="p-num">Principle 03</div>
+        <div class="p-title">Social Proof + Authority<br>→ Clinic Credibility Cascade</div>
+        <div class="p-text">Born at TAKAMI Omotesando Clinic — a prestige Tokyo dermatology spa. "Developed by doctors for real patients" trumps influencer hype. Organic @cosme rankings (6.5+/7 stars) and patient testimonials create self-fulfilling authority.</div>
+        <div class="p-impact">Overcomes skepticism in science-heavy J-Beauty</div>
+      </div>
+
+      <div class="principle-card reveal delay-4">
+        <div class="p-num">Principle 04</div>
+        <div class="p-title">Anchoring &amp; Framing<br>→ "Turnover" Narrative</div>
+        <div class="p-text">Anchors on "28-day skin turnover" science — framing daily exfoliation as medical necessity, not luxury. The first information a consumer encounters sets their mental benchmark; all future choices are judged against this scientific anchor.</div>
+        <div class="p-impact">Frames daily peel as scientific requirement</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════ DEEP DIVE: LOSS AVERSION ════ -->
+  <section class="section" style="background: var(--white);">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: start;">
+
+      <div>
+        <p class="section-eyebrow reveal">Deep Dive · Principle 01</p>
+        <h2 class="section-title reveal">Loss Aversion as<br><em>product strategy</em></h2>
+        <p class="section-body reveal delay-1">Japan has some of the world's highest uncertainty avoidance in skincare. Any product risking redness, irritation, or "ruined skin" faces enormous psychological barriers before first purchase.</p>
+        <p class="section-body reveal delay-2" style="margin-top: 16px;">Takami's breakthrough: position Soft Peel not as a "powerful exfoliant" but as "the peel you literally cannot get wrong." Clinic heritage plus "dermatologist-developed" becomes a safety guarantee, not just a credential.</p>
+        <div class="reveal delay-3" style="margin-top: 32px; padding: 24px 22px; background: var(--blue-glass); border-radius: var(--radius-md); border-left: 3px solid var(--blue-cobalt);">
+          <p style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--blue-cobalt); margin-bottom: 8px;">For UX Designers</p>
+          <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.75;">Replace "powerful results" claims with "gentle enough for daily use." Every confirmation screen should reduce anxiety. Remove perceived risk at every decision point — before the user even asks.</p>
+        </div>
+      </div>
+
+      <div class="reveal delay-2">
+        <div style="background: var(--blue-deep); border-radius: var(--radius-lg); padding: 44px 36px;">
+          <h3 style="font-family: var(--font-serif); font-size: 22px; font-weight: 400; color: white; margin-bottom: 28px;">The No-Loss Formula</h3>
+
+          <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div style="display: flex; gap: 16px; align-items: flex-start;">
+              <div style="width: 34px; height: 34px; flex-shrink: 0; border-radius: 50%; background: rgba(232,184,160,0.15); border: 1px solid rgba(232,184,160,0.5); display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; color: var(--peach);">1</div>
+              <div>
+                <p style="font-size: 14px; font-weight: 600; color: white; margin-bottom: 3px;">Clinic-grade legitimacy</p>
+                <p style="font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.5;">Removes credibility barrier entirely</p>
+              </div>
+            </div>
+            <div style="display: flex; gap: 16px; align-items: flex-start;">
+              <div style="width: 34px; height: 34px; flex-shrink: 0; border-radius: 50%; background: rgba(232,184,160,0.15); border: 1px solid rgba(232,184,160,0.5); display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; color: var(--peach);">2</div>
+              <div>
+                <p style="font-size: 14px; font-weight: 600; color: white; margin-bottom: 3px;">"Daily safe" positioning</p>
+                <p style="font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.5;">Removes over-use frequency fear</p>
+              </div>
+            </div>
+            <div style="display: flex; gap: 16px; align-items: flex-start;">
+              <div style="width: 34px; height: 34px; flex-shrink: 0; border-radius: 50%; background: rgba(232,184,160,0.15); border: 1px solid rgba(232,184,160,0.5); display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; color: var(--peach);">3</div>
+              <div>
+                <p style="font-size: 14px; font-weight: 600; color: white; margin-bottom: 3px;">No downtime guarantee</p>
+                <p style="font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.5;">Removes lifestyle disruption anxiety</p>
+              </div>
+            </div>
+            <div style="display: flex; gap: 16px; align-items: flex-start;">
+              <div style="width: 34px; height: 34px; flex-shrink: 0; border-radius: 50%; background: rgba(232,184,160,0.15); border: 1px solid rgba(232,184,160,0.5); display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; color: var(--peach);">4</div>
+              <div>
+                <p style="font-size: 14px; font-weight: 600; color: white; margin-bottom: 3px;">Patient testimonials at scale</p>
+                <p style="font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.5;">Removes "will it work for me?" doubt</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════ COMMITMENT LADDER ════ -->
+  <section class="section" style="background: var(--cream); overflow: hidden;">
+    <div class="section-center reveal">
+      <p class="section-eyebrow">Deep Dive · Principle 02</p>
+      <h2 class="section-title">The Commitment<br><em>Journey</em></h2>
+      <p class="section-body" style="margin: 0 auto;">One pump each morning → lifelong identity. Click each stage to unfold the transformation.</p>
+    </div>
+
+    <!-- Gooey SVG filter -->
+    <svg style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+          <feColorMatrix in="blur" mode="matrix"
+            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -8" result="goo"/>
+          <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+        </filter>
+      </defs>
+    </svg>
+
+    <style>
+      /* ── Section: position canvas behind content ── */
+      .journey-wrap {
+        position: relative;
+        z-index: 0;
+      }
+      #journey-canvas {
+        position: absolute;
+        inset: -60px;
+        width: calc(100% + 120px);
+        height: calc(100% + 120px);
+        pointer-events: none;
+        z-index: 0;
+        opacity: 0.85;
+      }
+
+      /* ── Journey track ── */
+      .journey-track {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 72px;
+        padding: 0 40px;
+        z-index: 2;
+      }
+      .journey-track::before {
+        content: '';
+        position: absolute;
+        top: 52px;
+        left: calc(40px + 52px);
+        right: calc(40px + 52px);
+        height: 1px;
+        background: linear-gradient(90deg,
+          rgba(20,32,168,0.1),
+          rgba(20,32,168,0.3) 50%,
+          rgba(20,32,168,0.1)
+        );
+      }
+      .journey-track::after {
+        content: '';
+        position: absolute;
+        top: 48px;
+        left: calc(40px + 52px);
+        width: 56px; height: 8px;
+        border-radius: 8px;
+        background: linear-gradient(90deg, transparent, rgba(100,160,255,0.55), transparent);
+        animation: liquidFlow 2.8s ease-in-out infinite;
+      }
+      @keyframes liquidFlow {
+        0%   { left: calc(40px + 52px); opacity: 0; }
+        8%   { opacity: 1; }
+        92%  { opacity: 1; }
+        100% { left: calc(100% - 40px - 52px - 56px); opacity: 0; }
+      }
+
+      /* ── Node ── */
+      .journey-node {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 104px;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+      }
+
+      /* floating bob — staggered per node */
+      .journey-node:nth-child(1) .j-symbol { animation: jBob 3.2s 0.0s ease-in-out infinite; }
+      .journey-node:nth-child(2) .j-symbol { animation: jBob 3.2s 0.5s ease-in-out infinite; }
+      .journey-node:nth-child(3) .j-symbol { animation: jBob 3.2s 1.0s ease-in-out infinite; }
+      .journey-node:nth-child(4) .j-symbol { animation: jBob 3.2s 1.5s ease-in-out infinite; }
+      @keyframes jBob {
+        0%,100% { transform: translateY(0px)   rotate(0deg);   }
+        30%     { transform: translateY(-9px)  rotate(-1.5deg); }
+        60%     { transform: translateY(-5px)  rotate(1deg);   }
+      }
+
+      .j-symbol {
+        width: 104px; height: 104px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.82);
+        backdrop-filter: blur(8px);
+        border: 1.5px solid rgba(20,32,168,0.14);
+        display: flex; align-items: center; justify-content: center;
+        position: relative;
+        margin-bottom: 20px;
+        overflow: hidden;
+        box-shadow: 0 8px 24px rgba(20,32,168,0.08), 0 2px 6px rgba(20,32,168,0.04);
+        /* pause bob on hover, resume elastic pop instead */
+        transition: border-color 0.35s, box-shadow 0.35s;
+        will-change: transform;
+      }
+      /* glass water sheen */
+      .j-symbol::after {
+        content: '';
+        position: absolute;
+        top: -30%; left: -20%;
+        width: 60%; height: 60%;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(255,255,255,0.45) 0%, transparent 70%);
+        pointer-events: none;
+      }
+
+      .journey-node:hover .j-symbol {
+        animation: none !important;
+        transform: translateY(-10px) scale(1.08);
+        border-color: var(--blue-cobalt);
+        box-shadow: 0 0 0 8px rgba(20,32,168,0.06),
+                    0 20px 48px rgba(20,32,168,0.18);
+        transition: transform 0.45s cubic-bezier(0.34,1.56,0.64,1),
+                    border-color 0.35s, box-shadow 0.35s;
+      }
+      .journey-node.open .j-symbol {
+        animation: none !important;
+        transform: translateY(-10px) scale(1.1);
+        border-color: var(--blue-cobalt);
+        box-shadow: 0 0 0 10px rgba(20,32,168,0.07),
+                    0 24px 56px rgba(20,32,168,0.2);
+        transition: transform 0.5s cubic-bezier(0.34,1.56,0.64,1),
+                    border-color 0.35s, box-shadow 0.35s;
+      }
+
+      .j-stage {
+        font-size: 10px; font-weight: 800;
+        letter-spacing: 0.22em; text-transform: uppercase;
+        color: var(--text-muted); margin-bottom: 4px;
+        transition: color 0.3s;
+      }
+      .j-label {
+        font-family: var(--font-serif);
+        font-size: 18px; font-weight: 400; color: var(--text-primary);
+        text-align: center; line-height: 1.2;
+        transition: color 0.3s;
+      }
+      .journey-node.open .j-stage,
+      .journey-node:hover .j-stage { color: var(--blue-cobalt); }
+
+      /* ── Info panel — gooey elastic reveal ── */
+      .journey-panel {
+        margin-top: 52px;
+        min-height: 150px;
+        position: relative;
+        z-index: 2;
+      }
+      .j-info {
+        display: none;
+        position: absolute; inset: 0;
+      }
+      .j-info.visible {
+        display: flex;
+      }
+      .j-info-inner {
+        display: flex; align-items: flex-start; gap: 32px;
+        padding: 36px 40px;
+        background: rgba(255,255,255,0.88);
+        backdrop-filter: blur(16px);
+        border-radius: var(--radius-xl);
+        border: 1px solid rgba(20,32,168,0.08);
+        box-shadow: 0 20px 64px rgba(20,32,168,0.12),
+                    0 4px 16px rgba(20,32,168,0.06);
+        width: 100%;
+        /* gooey elastic entry */
+        transform-origin: top center;
+        animation: gooeyIn 0.65s cubic-bezier(0.34,1.56,0.64,1) both;
+      }
+      @keyframes gooeyIn {
+        0%   { opacity:0; transform: scaleY(0.25) scaleX(0.9); filter: blur(6px); }
+        40%  { opacity:1; filter: blur(0); }
+        65%  { transform: scaleY(1.04) scaleX(1.01); }
+        100% { transform: scaleY(1)    scaleX(1); }
+      }
+
+      .j-info-symbol {
+        width: 56px; height: 56px; flex-shrink: 0;
+        border-radius: 50%;
+        background: var(--blue-deep);
+        display: flex; align-items: center; justify-content: center;
+        box-shadow: 0 8px 20px rgba(6,14,107,0.25);
+      }
+      .j-info-text { flex: 1; }
+      .j-info-title {
+        font-family: var(--font-serif);
+        font-size: 24px; font-weight: 400; color: var(--text-primary);
+        margin-bottom: 10px;
+      }
+      .j-info-body {
+        font-size: 15px; line-height: 1.8; color: var(--text-secondary);
+      }
+      .j-info-note {
+        margin-top: 12px;
+        font-size: 13px; font-weight: 600;
+        color: var(--blue-cobalt); letter-spacing: 0.04em;
+      }
+      .j-info-note::before { content: '→ '; }
+
+      /* ── SVG symbol animations (unchanged) ── */
+      .drop-path {
+        animation: dropFall 2.4s ease-in-out infinite;
+        transform-origin: 50% 0%;
+      }
+      @keyframes dropFall {
+        0%,100% { transform: translateY(0); opacity:1; }
+        45%     { transform: translateY(3px); }
+        60%     { transform: translateY(4px) scaleX(1.15) scaleY(0.85); }
+        75%     { transform: translateY(0); opacity:0.7; }
+      }
+      .orbit-ring {
+        stroke-dasharray: 138; stroke-dashoffset: 138;
+        animation: drawRing 2s ease-in-out infinite;
+      }
+      @keyframes drawRing {
+        0%  { stroke-dashoffset: 138; }
+        60% { stroke-dashoffset: 0; }
+        100%{ stroke-dashoffset: 0; }
+      }
+      .orbit-dot { animation: orbitDot 2s linear infinite; transform-origin: 50% 50%; }
+      @keyframes orbitDot {
+        from { transform: rotate(0deg) translateX(22px); }
+        to   { transform: rotate(360deg) translateX(22px); }
+      }
+      .skin-ring { transform-origin: 50% 50%; }
+      .skin-ring:nth-child(1){ animation: skinPulse 2.6s 0.0s ease-in-out infinite; }
+      .skin-ring:nth-child(2){ animation: skinPulse 2.6s 0.3s ease-in-out infinite; }
+      .skin-ring:nth-child(3){ animation: skinPulse 2.6s 0.6s ease-in-out infinite; }
+      @keyframes skinPulse {
+        0%,100%{ opacity:0.18; transform:scale(1); }
+        50%    { opacity:0.55; transform:scale(1.06); }
+      }
+      .signal-arc { transform-origin: 50% 70%; }
+      .signal-arc:nth-child(1){ animation: signalArc 2s 0.0s  ease-out infinite; }
+      .signal-arc:nth-child(2){ animation: signalArc 2s 0.35s ease-out infinite; }
+      .signal-arc:nth-child(3){ animation: signalArc 2s 0.7s  ease-out infinite; }
+      @keyframes signalArc {
+        0%  { opacity:0; transform:scale(0.6); }
+        30% { opacity:0.7; }
+        100%{ opacity:0; transform:scale(1.3); }
+      }
+    </style>
+
+    <!-- Journey Wrap (canvas + track) -->
+    <div class="journey-wrap">
+    <div class="journey-track reveal">
+
+      <!-- Stage 1: Drop / First Touch -->
+      <div class="journey-node open" data-stage="0" onclick="openStage(this)">
+        <div class="j-symbol">
+          <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
+            <path class="drop-path"
+              d="M22 6 C22 6 11 18 11 26 a11 11 0 0 0 22 0 C33 18 22 6 22 6 Z"
+              fill="none" stroke="#1420A8" stroke-width="1.4"/>
+            <circle cx="18" cy="24" r="2" fill="rgba(20,32,168,0.2)"/>
+          </svg>
+        </div>
+        <div class="j-stage">Stage 01</div>
+        <div class="j-label">First<br>Trial</div>
+      </div>
+
+      <!-- Stage 2: Orbit / Daily Loop -->
+      <div class="journey-node" data-stage="1" onclick="openStage(this)">
+        <div class="j-symbol">
+          <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
+            <circle class="orbit-ring" cx="22" cy="22" r="16"
+              stroke="#1420A8" stroke-width="1.2" stroke-linecap="round"/>
+            <g class="orbit-dot">
+              <circle cx="22" cy="22" r="3" fill="#1420A8"/>
+            </g>
+            <circle cx="22" cy="22" r="3" fill="rgba(20,32,168,0.25)"/>
+          </svg>
+        </div>
+        <div class="j-stage">Stage 02</div>
+        <div class="j-label">Daily<br>Habit</div>
+      </div>
+
+      <!-- Stage 3: Skin Layers / Identity -->
+      <div class="journey-node" data-stage="2" onclick="openStage(this)">
+        <div class="j-symbol">
+          <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
+            <circle class="skin-ring" cx="22" cy="22" r="18" stroke="#1420A8" stroke-width="1"/>
+            <circle class="skin-ring" cx="22" cy="22" r="12" stroke="#1420A8" stroke-width="1.2"/>
+            <circle class="skin-ring" cx="22" cy="22" r="6"  stroke="#1420A8" stroke-width="1.4"/>
+            <circle cx="22" cy="22" r="2.5" fill="#1420A8"/>
+          </svg>
+        </div>
+        <div class="j-stage">Stage 03</div>
+        <div class="j-label">Ritual<br>Identity</div>
+      </div>
+
+      <!-- Stage 4: Signal Arcs / Evangelist -->
+      <div class="journey-node" data-stage="3" onclick="openStage(this)">
+        <div class="j-symbol">
+          <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
+            <path class="signal-arc"
+              d="M8 30 Q22 10 36 30" stroke="#1420A8" stroke-width="1" fill="none" stroke-linecap="round"/>
+            <path class="signal-arc"
+              d="M13 34 Q22 18 31 34" stroke="#1420A8" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+            <path class="signal-arc"
+              d="M17 37 Q22 26 27 37" stroke="#1420A8" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+            <circle cx="22" cy="37" r="2.5" fill="#1420A8"/>
+          </svg>
+        </div>
+        <div class="j-stage">Stage 04</div>
+        <div class="j-label">Brand<br>Evangelist</div>
+      </div>
+
+    </div><!-- /.journey-track -->
+
+    <!-- Info Panel — content swaps per stage -->
+    <div class="journey-panel reveal delay-1">
+
+      <div class="j-info visible" data-panel="0">
+        <div class="j-info-inner">
+          <div class="j-info-symbol">
+            <svg width="26" height="26" viewBox="0 0 44 44" fill="none">
+              <path d="M22 6 C22 6 11 18 11 26 a11 11 0 0 0 22 0 C33 18 22 6 22 6 Z"
+                fill="none" stroke="rgba(232,184,160,0.9)" stroke-width="1.6"/>
+            </svg>
+          </div>
+          <div class="j-info-text">
+            <div class="j-info-title">The first drop</div>
+            <div class="j-info-body">No-loss framing eliminates all hesitation. Clinic heritage means zero credibility barrier. One pump — the smallest possible commitment. The skin feels no disruption, so the brain logs no risk. Activation energy drops to near zero.</div>
+            <div class="j-info-note">Loss aversion neutralized at the point of first touch</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="j-info" data-panel="1">
+        <div class="j-info-inner">
+          <div class="j-info-symbol">
+            <svg width="26" height="26" viewBox="0 0 44 44" fill="none">
+              <circle cx="22" cy="22" r="16" stroke="rgba(232,184,160,0.9)" stroke-width="1.6"/>
+            </svg>
+          </div>
+          <div class="j-info-text">
+            <div class="j-info-title">The loop forms</div>
+            <div class="j-info-body">No negative outcome reinforces continuation. The morning ritual becomes automatic — packaging, precise dispenser, single step. Consistency builds its own momentum. Cognitive dissonance kicks in: "I've started, I must continue." The loop is self-sustaining.</div>
+            <div class="j-info-note">Routine now operates below conscious decision-making</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="j-info" data-panel="2">
+        <div class="j-info-inner">
+          <div class="j-info-symbol">
+            <svg width="26" height="26" viewBox="0 0 44 44" fill="none">
+              <circle cx="22" cy="22" r="16" stroke="rgba(232,184,160,0.9)" stroke-width="1"/>
+              <circle cx="22" cy="22" r="8"  stroke="rgba(232,184,160,0.7)" stroke-width="1.2"/>
+              <circle cx="22" cy="22" r="3"  fill="rgba(232,184,160,0.9)"/>
+            </svg>
+          </div>
+          <div class="j-info-text">
+            <div class="j-info-title">The skin becomes self</div>
+            <div class="j-info-body">"I'm a Soft Peel user" — self-concept merges with the product. Japan's ritual-loving culture amplifies this deeply. The daily act becomes a ceremony, not a chore. Skipping a day feels like skipping a part of yourself. Identity and product fuse.</div>
+            <div class="j-info-note">Product is no longer used — it is lived</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="j-info" data-panel="3">
+        <div class="j-info-inner">
+          <div class="j-info-symbol">
+            <svg width="26" height="26" viewBox="0 0 44 44" fill="none">
+              <path d="M8 30 Q22 10 36 30" stroke="rgba(232,184,160,0.9)" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+              <circle cx="22" cy="37" r="2.5" fill="rgba(232,184,160,0.9)"/>
+            </svg>
+          </div>
+          <div class="j-info-text">
+            <div class="j-info-title">The signal radiates</div>
+            <div class="j-info-body">Users share on @cosme, Instagram, word of mouth. Not because Takami asks — because identity expression is social. Each evangelist feeds Principle 3 (authority cascade) organically. The cult grows from within. One converted skin becomes a hundred curious ones.</div>
+            <div class="j-info-note">Evangelism is the natural endpoint of identity fusion</div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.journey-panel -->
+    </div><!-- /.journey-wrap -->
+
+    <script>
+      /* ── Fluid blob canvas background ── */
+      (function() {
+        const wrap = document.querySelector('.journey-wrap');
+        if (!wrap) return;
+
+        const canvas = document.createElement('canvas');
+        canvas.id = 'journey-canvas';
+        wrap.prepend(canvas);
+        const ctx = canvas.getContext('2d');
+
+        let W, H;
+        function resize() {
+          W = canvas.width  = wrap.offsetWidth  + 120;
+          H = canvas.height = wrap.offsetHeight + 120;
+        }
+        resize();
+        new ResizeObserver(resize).observe(wrap);
+
+        // cursor position relative to canvas
+        let mx = W / 2, my = H / 2;
+        wrap.addEventListener('mousemove', e => {
+          const r = canvas.getBoundingClientRect();
+          mx = e.clientX - r.left;
+          my = e.clientY - r.top;
+        });
+
+        // three soft blobs
+        const blobs = [
+          { x: W*0.25, y: H*0.4,  vx:0, vy:0, baseX: 0.25, baseY: 0.4,  r: 220, color: [20,  32, 168], alpha: 0.10, speed: 0.0007, phase: 0.0  },
+          { x: W*0.70, y: H*0.55, vx:0, vy:0, baseX: 0.70, baseY: 0.55, r: 180, color: [232,184,160], alpha: 0.13, speed: 0.0009, phase: 1.8  },
+          { x: W*0.50, y: H*0.25, vx:0, vy:0, baseX: 0.50, baseY: 0.25, r: 150, color: [100,130,255], alpha: 0.09, speed: 0.0011, phase: 3.5  }
+        ];
+
+        let t = 0;
+        function draw(ts) {
+          t = ts * 0.001;
+          ctx.clearRect(0, 0, W, H);
+
+          blobs.forEach(b => {
+            // sinusoidal base drift
+            const targetX = b.baseX * W + Math.sin(t * b.speed * 1000 + b.phase)      * W * 0.12;
+            const targetY = b.baseY * H + Math.cos(t * b.speed * 800  + b.phase + 1)  * H * 0.09;
+
+            // cursor attraction — gentle pull (lerp toward cursor at ~5%)
+            const cx = targetX + (mx - targetX) * 0.05;
+            const cy = targetY + (my - targetY) * 0.05;
+
+            b.x += (cx - b.x) * 0.025;
+            b.y += (cy - b.y) * 0.025;
+
+            const [r, g, bl] = b.color;
+            const grad = ctx.createRadialGradient(b.x, b.y, 0, b.x, b.y, b.r);
+            grad.addColorStop(0,   `rgba(${r},${g},${bl},${b.alpha})`);
+            grad.addColorStop(0.5, `rgba(${r},${g},${bl},${b.alpha * 0.5})`);
+            grad.addColorStop(1,   `rgba(${r},${g},${bl},0)`);
+
+            ctx.beginPath();
+            ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2);
+            ctx.fillStyle = grad;
+            ctx.fill();
+          });
+
+          requestAnimationFrame(draw);
+        }
+        requestAnimationFrame(draw);
+      })();
+
+      /* ── Stage switcher with re-triggered gooeyIn ── */
+      function openStage(node) {
+        const idx = node.dataset.stage;
+
+        document.querySelectorAll('.journey-node').forEach(n => n.classList.remove('open'));
+        node.classList.add('open');
+
+        document.querySelectorAll('.j-info').forEach(p => {
+          p.classList.remove('visible');
+          p.style.display = 'none';
+        });
+
+        const panel = document.querySelector(`.j-info[data-panel="${idx}"]`);
+        if (!panel) return;
+
+        panel.style.display = 'flex';
+
+        // Re-trigger gooeyIn by cloning the inner element (forces full animation replay)
+        const inner = panel.querySelector('.j-info-inner');
+        if (inner) {
+          const clone = inner.cloneNode(true);
+          inner.replaceWith(clone);
+        }
+
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => panel.classList.add('visible'));
+        });
+      }
+    </script>
+  </section>
+
+  <!-- ════ SOCIAL PROOF ════ -->
+  <section class="section" style="background: var(--white);">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center;">
+
+      <div class="reveal delay-1">
+        <div style="background: var(--off-white); border-radius: var(--radius-lg); padding: 44px; position: relative; overflow: hidden;">
+          <div style="position: absolute; top: -20px; right: -20px; width: 120px; height: 120px; border-radius: 50%; background: rgba(20,32,168,0.06);"></div>
+
+          <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 28px;">
+            <div style="width: 48px; height: 48px; border-radius: 50%; background: var(--blue-cobalt); display: flex; align-items: center; justify-content: center; font-family: var(--font-serif); font-size: 20px; color: white; font-weight: 500;">T</div>
+            <div>
+              <p style="font-weight: 600; color: var(--text-primary); font-size: 14px;">@cosme Review</p>
+              <p style="font-size: 12px; color: var(--text-muted);">Verified Purchase · Tokyo</p>
+            </div>
+            <div style="margin-left: auto; font-size: 13px; color: var(--blue-cobalt); font-weight: 700;">★★★★★★½</div>
+          </div>
+          <p style="font-family: var(--font-serif); font-size: 17px; color: var(--text-secondary); line-height: 1.8; font-style: italic;">"My texture transformed after 3 months. My dermatologist at Omotesando confirmed the improvement. I've never felt more confident recommending a single product."</p>
+
+          <div style="margin-top: 28px; padding-top: 20px; border-top: 1px solid rgba(20,32,168,0.08);">
+            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+              <span style="padding: 4px 12px; background: var(--blue-glass); border-radius: var(--radius-pill); font-size: 12px; color: var(--blue-cobalt);">Sensitive Skin</span>
+              <span style="padding: 4px 12px; background: var(--blue-glass); border-radius: var(--radius-pill); font-size: 12px; color: var(--blue-cobalt);">Daily Use</span>
+              <span style="padding: 4px 12px; background: var(--blue-glass); border-radius: var(--radius-pill); font-size: 12px; color: var(--blue-cobalt);">3+ Years</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p class="section-eyebrow reveal">Deep Dive · Principle 03</p>
+        <h2 class="section-title reveal">Authority Cascade<br><em>in action</em></h2>
+        <p class="section-body reveal delay-1">The trust chain runs in sequence — each link amplifying the next. Clinic doctor → real patients → @cosme 6.5+ stars → word-of-mouth → self-fulfilling prophecy.</p>
+        <p class="section-body reveal delay-2" style="margin-top: 16px;">Users trust because "doctors + patients endorse it" — eliminating the need for endless personal research before purchase. In science-heavy J-Beauty culture, this is everything.</p>
+        <div class="reveal delay-3" style="margin-top: 32px; padding: 22px; background: var(--blue-glass); border-radius: var(--radius-md); border-left: 3px solid var(--blue-cobalt);">
+          <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.75;"><strong style="color: var(--blue-cobalt);">UX principle:</strong> Design flows as "digital consultations," not e-commerce transactions. Every touchpoint should feel like talking to your dermatologist, not a checkout funnel.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════ SUCCESS FORMULA ════ -->
+  <section class="section section-center" style="background: var(--blue-deep);">
+    <p class="section-eyebrow-white reveal">The Formula</p>
+    <h2 class="section-title-white reveal delay-1" style="margin: 0 auto 20px;">Clinic Authority<br>× Cultural Ma<br>× Behavioral Safety Net</h2>
+    <p class="section-body-white reveal delay-2" style="margin: 0 auto 40px;">These three elements create a closed loop — each principle feeding the next, each cultural value reinforcing the behavioral mechanism.</p>
+    <div class="reveal delay-3" style="max-width: 560px; margin: 0 auto; padding: 40px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-xl);">
+      <p style="font-family: var(--font-serif); font-size: 32px; font-weight: 400; color: var(--white); text-align: center; line-height: 1.2;">=&nbsp;<em style="color: var(--peach-light);">Cult Ritual Product</em></p>
+      <p style="font-size: 14px; color: rgba(255,255,255,0.45); text-align: center; margin-top: 20px; line-height: 1.7;">Japanese women don't just buy Soft Peel — they adopt its philosophy, becoming evangelists. It's cultural resonance, not just good product.</p>
+    </div>
+  </section>
+
+  <!-- ════ NEXT CHAPTER ════ -->
+  <section class="next-chapter">
+    <p class="section-eyebrow reveal">Continue the Guidebook</p>
+    <h2 class="section-title reveal delay-1" style="max-width: 480px; margin: 0 auto 28px;">Now explore the<br><em>Cultural DNA</em></h2>
+    <p class="section-body reveal delay-2" style="max-width: 420px; margin: 0 auto 36px;">Ma, Wabi-Sabi, and five other Japanese concepts that explain why Takami's minimalism is ancestral — not a Western trend.</p>
+    <a href="cultural-analysis.html" class="btn-blue reveal delay-3" style="display: inline-flex;">Chapter 02: Cultural Philosophy →</a>
+  </section>
+
+  <footer>
+    <div class="footer-brand">TAKAMI GUIDEBOOK</div>
+    <div class="footer-credit">Chapter 01 — Behavioral Science Architecture</div>
+    <div class="footer-year">2026</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
